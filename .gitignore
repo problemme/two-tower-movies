@@ -1,0 +1,18 @@
+# Data and model outputs (large; regenerate with the notebooks)
+data/
+outputs/
+*.gz
+*.parquet
+*.npz
+*.npy
+*.h5
+metrics.json
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
