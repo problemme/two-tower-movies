@@ -6,8 +6,8 @@ built from the raw review dump with a leakage-free leave-last-out split.
 
 | Notebook | What it does | Open |
 |---|---|---|
-| `01_data_prep.ipynb` | Parse 17M raw reviews → dedup → iterative 5-core → leave-last-out split → history sequences | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/problemme/two-twoer-movies/blob/main/notebooks/01_data_prep.ipynb) |
-| `02_train_two_tower.ipynb` | Item metadata features → two-tower model → in-batch softmax training → evaluation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/problemme/two-twoer-movies/blob/main/notebooks/02_train_two_tower.ipynb) |
+| `01_data_prep.ipynb` | Parse 17M raw reviews → dedup → iterative 5-core → leave-last-out split → history sequences | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/problemme/two-tower-movies/blob/main/notebooks/01_data_prep.ipynb) |
+| `02_train_two_tower.ipynb` | Item metadata features → two-tower model → in-batch softmax training → evaluation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/problemme/two-tower-movies/blob/main/notebooks/02_train_two_tower.ipynb) |
 
 ## Results
 
